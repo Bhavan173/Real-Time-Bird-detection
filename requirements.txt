@@ -1,4 +1,6 @@
 ultralytics
 streamlit
-streamlit_webrtc
+streamlit-webrtc
 opencv-python
+torch
+numpy
