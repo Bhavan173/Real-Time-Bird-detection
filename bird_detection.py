@@ -19,5 +19,9 @@ class YOLOVideoTransformer(VideoTransformerBase):
     
 webrtc_streamer(
     key="yolo-stream",
-    video_processor_factory=YOLOVideoTransformer
+    video_processor_factory=YOLOVideoTransformer,
+    rtc_configuration={
+        "iceServers": [
+            {"urls": ["stun:stun.l.google.com:19302"]},
+        ]
 )
