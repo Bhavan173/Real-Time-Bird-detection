@@ -2,6 +2,4 @@ ultralytics
 streamlit
 streamlit_webrtc
 opencv-python
-libgl1
-libglib2.0-0
-ffmpeg
+numpy
